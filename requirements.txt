@@ -1,0 +1,18 @@
+# Python Dependencies for Hand Signature Extraction Project
+# This file specifies the exact versions of Python packages required
+# to run the signature detection and extraction application
+
+# YOLO (You Only Look Once) object detection framework
+# Used for signature detection in document images
+# Includes pre-trained models and training capabilities
+ultralytics==8.2.30
+
+# Ultralytics THOP (Torch-OpCounter for PyTorch)
+# Provides model complexity analysis and FLOPs counting
+# Used for model performance evaluation and optimization
+ultralytics_thop==0.2.8
+
+# Dill - Extended pickling capabilities for Python
+# Enhanced serialization library that extends Python's pickle module
+# Used for saving and loading complex Python objects and model states
+dill==0.3.8

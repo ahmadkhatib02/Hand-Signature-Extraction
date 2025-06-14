@@ -1,0 +1,14 @@
+# Git ignore file for Hand Signature Extraction Project
+# This file specifies which files and directories should be ignored by Git
+# Prevents sensitive data and system files from being committed to version control
+
+# Environment variables and configuration files
+# These may contain sensitive information like API keys, database credentials
+.env
+.env*
+*.env
+
+# macOS system files
+# .DS_Store files are created by macOS Finder and contain folder metadata
+.DS_Store
+.DS_Store?
